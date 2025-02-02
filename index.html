@@ -9,17 +9,23 @@
     </head>
 
     <body>
-        <div class="side-header">
-            <img src="./images/odin-lined.png" alt="Odin Logo">
-            ODIN
+        <div class="side-header-container">
+            <div class="side-top-spacer"></div>
+            <div class="side-header">
+                <img id="odin-logo" src="./images/odin-lined.png" alt="Odin Logo">
+                <p>ODIN</p>
+            </div>
+            <div class="side-bottom-spacer">
+                <p>Photo by <span>Halie West</span> on <span>Unsplash</span></p>
+            </div>
         </div>
         <div class="content-container">
-            <div class="form-header">
-                <p>This is not a real online service! You know you need something like this in your life to help you
-                    realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-                <p>You <em>know</em> you want to.</p>
-            </div>
             <form action="#" method="get">
+                <div class="form-header">
+                    <p>This is not a real online service! You know you need something like this in your life to help you
+                        realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
                 <div class="form-container">
                     <div class="line 1">
                         <label for="first-name">First Name</label>
@@ -43,13 +49,16 @@
                         <input type="password" name="confirm-password" id="confirm-password">
                     </div>
                 </div>
-                <div class="form-submit">
-
+                <div class="form-footer">
+                    <div class="form-submit">
+                        <input type="submit" value="Create Account">
+                    </div>
+                    <div class="form-existing">
+                        Already Have an Account?
+                        <a href="#">Log in</a>
+                    </div>
                 </div>
             </form>
-            <div class="form-existing">
-                Already Have an Account?
-            </div>
         </div>
     </body>
 

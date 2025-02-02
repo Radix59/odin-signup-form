@@ -1,3 +1,94 @@
-h1{
-    color: brown;
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.side-header-container {
+    padding: 0px;
+    margin: 0px;
+    width: 37.5vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/plant-bg.png);
+    background-position: right;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: norse;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+.side-header {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: norse, sans-serif;
+    font-size: 6em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.side-header * {
+    padding: 0px;
+    margin: 20px 0px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#odin-logo {
+    height: 125px;
+
+}
+
+.side-top-spacer {
+    height: calc(37.5vh - 165px);
+}
+
+.side-bottom-spacer {
+    height: 62.5vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+}
+
+.side-bottom-spacer > p > span {
+    text-decoration: underline;
+}
+
+.content-container {
+    width: 65vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > div {
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.form-header {
+    height: 37.5vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-right: 27.5%;
+}
+
+.form-container {
+    height: 25vh;
+}
+
+.form-footer {
+    height: 37.5vh;
+    background-color: lightgray;
 }
